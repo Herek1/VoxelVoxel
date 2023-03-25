@@ -21,7 +21,7 @@ if host_machine.system() == 'windows'
   raylib_subproject = cmake.subproject('raylib', options: raylib_opts)
 endif
 
-dependencies += dependency('raylib')
+dependencies += dependency('raylib_dep')
 
 # Project files
 inc_dirs = [include_directories(
