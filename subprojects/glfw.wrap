@@ -1,0 +1,8 @@
+[wrap-file]
+directory = glfw-3.3.8
+source_url = https://github.com/glfw/glfw/archive/refs/tags/3.3.8.tar.gz
+source_filename = glfw-3.3.8.tar.gz
+source_hash = f30f42e05f11e5fc62483e513b0488d5bceeab7d9c5da0ffe2252ad81816c713
+
+[provide]
+glfw3 = glfw_dep
