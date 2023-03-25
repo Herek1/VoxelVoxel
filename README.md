@@ -1,2 +1,11 @@
 # VoxelVoxel
-Projekt C++ WIEiK 2023
+
+## Dependencies
+
+- Meson & Ninja
+- Raylib
+
+## Building
+
+	meson build
+	ninja -C build

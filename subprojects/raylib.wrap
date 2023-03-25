@@ -1,0 +1,6 @@
+[wrap-git]
+dependency_names = raylib
+url = https://github.com/raysan5/raylib.git
+revision = master
+depth = 1
+
