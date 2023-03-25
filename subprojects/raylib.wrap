@@ -2,8 +2,6 @@
 url = https://github.com/raysan5/raylib.git
 revision = master
 depth = 1
-[provide]
-raylib = raylib_dep
 
 [provide]
 raylib = ryalib_dep

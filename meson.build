@@ -21,9 +21,9 @@ if host_machine.system() == 'windows'
   raylib_subproject = cmake.subproject('raylib', options: raylib_opts)
   glfw_subproject = cmake.subproject('glfw')
 
-#dependencies += cc.find_library('glfw')
-dependencies += raylib_subproject.dependency('raylib')
-dependencies += glfw_subproject.dependency('glfw')
+  dependencies += raylib_subproject.dependency('raylib')
+  dependencies += glfw_subproject.dependency('glfw')
+endif
 
 # Project files
 inc_dirs = [include_directories(
